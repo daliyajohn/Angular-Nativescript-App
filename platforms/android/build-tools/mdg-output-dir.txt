@@ -1,1 +1,0 @@
-/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/metadata
