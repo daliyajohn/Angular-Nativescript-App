@@ -1,9 +1,9 @@
 {
-	"time": "Sat May 26 2018 15:33:51 GMT+0530 (IST)",
+	"time": "Sun May 27 2018 16:51:04 GMT+0530 (IST)",
 	"nativePlatformStatus": "3",
 	"bundle": false,
 	"release": false,
-	"changesRequireBuild": true,
+	"changesRequireBuild": false,
 	"projectFileHash": "e9a9df4708edd29e8b9a0b3ad7a80a29b6123e4ed7ff9404362df9ac97faa638",
 	"changesRequireBuildTime": "Sat May 26 2018 15:33:51 GMT+0530 (IST)"
 }
