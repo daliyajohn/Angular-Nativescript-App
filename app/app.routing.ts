@@ -4,12 +4,12 @@ import { Routes } from '@angular/router';
 
 import { ItemsComponent } from './item/items.component';
 import { ItemDetailComponent } from './item/item-detail.component';
-import { LandingPageComponent } from '~/landing-page/landing-page.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: 'items', component: ItemsComponent },
   { path: 'home', component: LandingPageComponent },
+  { path: 'items', component: ItemsComponent },
   { path: 'item/:id', component: ItemDetailComponent }
 ];
 
