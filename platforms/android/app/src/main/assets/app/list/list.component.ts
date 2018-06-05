@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Page } from 'tns-core-modules/ui/page/page';
 
 @Component({
   selector: 'ns-list',
@@ -7,5 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['list.component.css']
 })
 export class ListComponent implements OnInit {
+  constructor(private page: Page) {
+    page.actionBarHidden = true;
+  }
   ngOnInit() {}
 }
