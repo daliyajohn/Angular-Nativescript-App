@@ -9,6 +9,7 @@ import { ItemDetailComponent } from './item/item-detail.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { LoginPageComponent } from '~/login/login.component';
 import { SignUpPageComponent } from '~/signup/signup.component';
+import { ListComponent } from '~/list/list.component';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -25,7 +26,8 @@ import { SignUpPageComponent } from '~/signup/signup.component';
     ItemDetailComponent,
     LandingPageComponent,
     LoginPageComponent,
-    SignUpPageComponent
+    SignUpPageComponent,
+    ListComponent
   ],
   providers: [ItemService],
   schemas: [NO_ERRORS_SCHEMA]

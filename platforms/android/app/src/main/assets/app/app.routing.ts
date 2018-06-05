@@ -7,6 +7,7 @@ import { ItemDetailComponent } from './item/item-detail.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { SignUpPageComponent } from '~/signup/signup.component';
 import { LoginPageComponent } from '~/login/login.component';
+import { ListComponent } from '~/list/list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'items', component: ItemsComponent },
   { path: 'item/:id', component: ItemDetailComponent },
   { path: 'signup', component: SignUpPageComponent },
-  { path: 'login', component: LoginPageComponent }
+  { path: 'login', component: LoginPageComponent },
+  { path: 'list', component: ListComponent }
 ];
 
 @NgModule({
