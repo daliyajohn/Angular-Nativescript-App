@@ -4,7 +4,7 @@
             "outputFile": "/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/aea0e8bc2e5d62aa32a9c9f8f30a9f6f/res/values-v14/values-v14.xml",
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/6a11c676ab6089ff4543110a57a6a4f2/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15,21,22,23,24,25,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

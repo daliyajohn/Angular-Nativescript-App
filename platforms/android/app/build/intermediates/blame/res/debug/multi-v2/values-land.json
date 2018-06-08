@@ -4,7 +4,7 @@
             "outputFile": "/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/aea0e8bc2e5d62aa32a9c9f8f30a9f6f/res/values-land/values-land.xml",
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/6a11c676ab6089ff4543110a57a6a4f2/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/88d56fe204dacc87bf29caa66d30fe8f/res/values-land/values-land.xml",
+                    "source": "/home/user/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/743cb6b607c69ec29b067c70d769ee64/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
