@@ -1,3 +1,8 @@
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.component.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.service.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.interface.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/login/login.component.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/signup/signup.component.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-common.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/animations/animation-player.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/animations/index.js
@@ -219,6 +224,7 @@
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/color/known-colors.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/color/color.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/tns-core-modules/color/color-common.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/landing-page/landing-page.component.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/item/item.service.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/item/items.component.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/item/item-detail.component.js

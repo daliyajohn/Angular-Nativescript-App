@@ -12,4 +12,3 @@
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/exploded-dependencies/1/classes.jar
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/exploded-dependencies/7/classes.jar
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/exploded-dependencies/5/classes.jar
-/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/intermediates/classes/debug

@@ -1,0 +1,11 @@
+<!-- login start -->
+<GridLayout class="login" row="*,*,*">
+  <Label text="◀  back " row="0" color="white" class="m-t-5 m-l-4" [nsRouterLink]="['/home']"></Label>
+  <StackLayout verticalAlignment="center" row="1">
+    <Image src="~/assets/logo_main.png" class="p-l-15 p-r-15 m-b-15" width="80%"></Image>
+    <TextField hint="Email Id" secure="false" returnKeyType="done" autocorrect="false" maxLength="10" class="input input-border m-l-15 m-r-15"></TextField>
+    <TextField hint="Password" secure="false" returnKeyType="done" autocorrect="false" maxLength="10" class="input input-border m-l-15 m-r-15 m-b-15"></TextField>
+    <Button class="btn btn-primary btn-active" height="120px" id="button" text="Login" [nsRouterLink]="['/list']"></Button>
+  </StackLayout>
+</GridLayout>
+<!-- login end -->
