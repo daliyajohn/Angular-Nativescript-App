@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Page } from 'tns-core-modules/ui/page/page';
+import { LoginService } from '~/login/login.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'ns-login',
@@ -8,8 +10,18 @@ import { Page } from 'tns-core-modules/ui/page/page';
   styleUrls: ['login.component.css']
 })
 export class LoginPageComponent implements OnInit {
-  constructor(private page: Page) {
+  email: any;
+  passWord: any;
+
+  constructor(
+    private page: Page,
+    private loginService: LoginService,
+    private router: Router
+  ) {
     page.actionBarHidden = true;
   }
   ngOnInit() {}
+  loginData() {
+    this.loginService.login(this.email, this.passWord);
+  }
 }
