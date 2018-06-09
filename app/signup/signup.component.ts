@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Page } from 'tns-core-modules/ui/page/page';
+import { SignupService } from '~/signup/signup.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'ns-signup',
@@ -8,8 +10,23 @@ import { Page } from 'tns-core-modules/ui/page/page';
   styleUrls: ['signup.component.css']
 })
 export class SignUpPageComponent implements OnInit {
-  constructor(private page: Page) {
+  email: any;
+  password: any;
+
+  constructor(
+    private page: Page,
+    private signupService: SignupService,
+    private router: Router
+  ) {
     page.actionBarHidden = true;
   }
   ngOnInit() {}
+
+  signUpData() {
+    console.log('data');
+    this.signupService.register(this.email, this.password);
+    if (this.email && this.password) {
+      this.router.navigate(['/list']);
+    }
+  }
 }
