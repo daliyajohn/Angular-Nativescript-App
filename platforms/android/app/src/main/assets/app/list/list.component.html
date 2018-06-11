@@ -1,7 +1,7 @@
 <GridLayout class="login" row="*,*,*">
   <Label text="Logout" row="0" color="white" class="m-t-5 m-l-4"></Label>
-  <StackLayout verticalAlignment="center" row="1">
-    <TextField hint="Password" secure="false" returnKeyType="done" autocorrect="false" class="input input-border m-l-15 m-r-15 m-b-15"></TextField>
-    <Button class="btn btn-primary btn-active" height="120px" id="button" text="Add"></Button>
+  <StackLayout row="1">
+    <TextField hint="Add product" secure="false" class="input input-border m-l-15 m-r-15 m-b-15" [(ngModel)]="addProducts"></TextField>
+    <Button class="btn btn-primary btn-active" height="120px" id="button" text="Add" (tap)="addProduct()"></Button>
   </StackLayout>
 </GridLayout>

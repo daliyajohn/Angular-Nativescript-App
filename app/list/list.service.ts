@@ -3,7 +3,7 @@ import { ListItem } from '~/list/list.interface';
 
 @Injectable()
 export class ListItemService {
-  private items = new Array<ListItem>(
+  private items = [
     { id: 1, name: 'Ter Stegen' },
     { id: 3, name: 'Piqué' },
     { id: 4, name: 'I. Rakitic' },
@@ -12,9 +12,9 @@ export class ListItemService {
     { id: 7, name: 'Arda' },
     { id: 8, name: 'A. Iniesta' },
     { id: 9, name: 'Suárez' }
-  );
+  ];
 
-  getLists(): ListItem[] {
+  getLists() {
     return this.items;
   }
 

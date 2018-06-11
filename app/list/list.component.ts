@@ -9,11 +9,14 @@ import { ListItemService } from '~/list/list.service';
   styleUrls: ['list.component.css']
 })
 export class ListComponent implements OnInit {
+  addProducts: any;
   public listItems: any;
   constructor(private page: Page, public listItemService: ListItemService) {
     page.actionBarHidden = true;
-    this.listItems = this.listItemService.getLists();
-    console.log(this.listItems);
+    // this.listItems = this.listItemService.getLists();
+    // console.log('gggfgf', this.listItems);
   }
   ngOnInit() {}
+
+  addProduct() {}
 }
