@@ -20,7 +20,7 @@ export class LoginService {
           return JSON.stringify(result);
         },
         (errorMessage: any) => {
-          console.log(errorMessage);
+          alert(errorMessage);
         }
       );
   }

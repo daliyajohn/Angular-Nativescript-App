@@ -6,8 +6,8 @@ export class SignupService {
   register(uEmail, uPassword) {
     return firebase
       .createUser({
-        email: uEmail.email,
-        password: uPassword.password
+        email: uEmail,
+        password: uPassword
       })
       .then(
         function(result: any) {
@@ -21,13 +21,13 @@ export class SignupService {
                 return 'saved';
               },
               function(errorMessage: any) {
-                alert(errorMessage);
+                console.log('error');
               }
             );
           return JSON.stringify(result);
         },
         function(errorMessage: any) {
-          alert(errorMessage);
+          console.log('error');
         }
       );
   }
