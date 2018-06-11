@@ -1,4 +1,4 @@
-#Fri Jun 08 18:44:06 IST 2018
+#Mon Jun 11 11:00:58 IST 2018
 base.0=/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -1,8 +1,11 @@
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.component.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.service.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/list/list.interface.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/login/login.service.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/login/backend.service.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/login/login.component.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/signup/signup.component.js
+/home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/signup/signup.service.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/platform-common.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/animations/animation-player.js
 /home/user/Documents/github/Angular-Nativescript-App/platforms/android/app/src/main/assets/app/tns_modules/nativescript-angular/animations/index.js

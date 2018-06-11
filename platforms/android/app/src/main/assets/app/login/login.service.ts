@@ -9,8 +9,8 @@ export class LoginService {
       .login({
         type: firebase.LoginType.PASSWORD,
         passwordOptions: {
-          email: loginEmail.email,
-          password: loginPassword.passWord
+          email: loginEmail,
+          password: loginPassword
         }
       })
       .then(

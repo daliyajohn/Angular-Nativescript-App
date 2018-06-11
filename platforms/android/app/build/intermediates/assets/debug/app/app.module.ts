@@ -11,6 +11,9 @@ import { LoginPageComponent } from '~/login/login.component';
 import { SignUpPageComponent } from '~/signup/signup.component';
 import { ListComponent } from '~/list/list.component';
 import { ListItemService } from '~/list/list.service';
+import { NativeScriptFormsModule } from 'nativescript-angular/forms';
+import { LoginService } from '~/login/login.service';
+import { SignupService } from '~/signup/signup.service';
 
 // Uncomment and add to NgModule imports if you need to use two-way binding
 // import { NativeScriptFormsModule } from "nativescript-angular/forms";
@@ -20,7 +23,7 @@ import { ListItemService } from '~/list/list.service';
 
 @NgModule({
   bootstrap: [AppComponent],
-  imports: [NativeScriptModule, AppRoutingModule],
+  imports: [NativeScriptModule, AppRoutingModule, NativeScriptFormsModule],
   declarations: [
     AppComponent,
     ItemsComponent,
@@ -30,7 +33,7 @@ import { ListItemService } from '~/list/list.service';
     SignUpPageComponent,
     ListComponent
   ],
-  providers: [ItemService, ListItemService],
+  providers: [ItemService, ListItemService, LoginService, SignupService],
   schemas: [NO_ERRORS_SCHEMA]
 })
 /*

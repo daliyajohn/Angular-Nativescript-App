@@ -13,6 +13,7 @@ export class ListComponent implements OnInit {
   constructor(private page: Page, public listItemService: ListItemService) {
     page.actionBarHidden = true;
     this.listItems = this.listItemService.getLists();
+    console.log(this.listItems);
   }
   ngOnInit() {}
 }
