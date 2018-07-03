@@ -23,8 +23,5 @@ export class LoginPageComponent implements OnInit {
   ngOnInit() {}
   loginData() {
     this.loginService.login(this.email, this.passWord);
-    if (this.email && this.passWord) {
-      this.router.navigate(['/list']);
-    }
   }
 }
