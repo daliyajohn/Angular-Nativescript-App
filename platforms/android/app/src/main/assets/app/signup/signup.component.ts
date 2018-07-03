@@ -23,10 +23,6 @@ export class SignUpPageComponent implements OnInit {
   ngOnInit() {}
 
   signUpData() {
-    console.log('data');
     this.signupService.register(this.email, this.password);
-    if (this.email && this.password) {
-      this.router.navigate(['/list']);
-    }
   }
 }

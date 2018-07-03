@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import firebase = require('nativescript-plugin-firebase');
+import { Router } from '@angular/router';
 
 @Injectable()
 export class SignupService {
+  constructor(private router: Router) {}
   register(uEmail, uPassword) {
     return firebase
       .createUser({
@@ -18,6 +20,7 @@ export class SignupService {
             })
             .then(
               function(result: any) {
+                this.router.navigate(['/login']);
                 return 'saved';
               },
               function(errorMessage: any) {

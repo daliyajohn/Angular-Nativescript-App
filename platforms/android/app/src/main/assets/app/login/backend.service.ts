@@ -1,18 +1,17 @@
-import { getString, setString } from "application-settings";
+import { getString, setString } from 'application-settings';
 
-const tokenKey = "token";
+const tokenKey = 'token';
 
 export class BackendService {
-
-static isLoggedIn(): boolean {
-    return !!getString("token");
+  static isLoggedIn(): boolean {
+    return !!getString('token');
   }
 
   static get token(): string {
-    return getString("token");
+    return getString('token');
   }
 
   static set token(theToken: string) {
-    setString("token", theToken);
+    setString('token', theToken);
   }
 }
